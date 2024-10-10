@@ -1,0 +1,169 @@
+.header{
+    background-color: #1F2937 !important;
+    display: flex;
+    height: 550px;
+    width: 100%;
+    /*color: white;*/
+
+    font-family:roboto,sans-serif;
+    flex-direction: column;
+}
+.header-header{
+    /*width: 100%;*/
+    padding-top: 10px;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    align-items: center;
+}
+.left-header-header{
+    width: 30%;
+    display: flex;
+    padding-right: 55px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:24px;
+}
+.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top:75px;
+    /*margin-left:  250px;*/
+    gap: 35px;
+    /*margin: 48px;*/
+}
+.photo button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+}
+.photo-photo{
+    margin-left: 125px;
+    width: 35%;
+}
+
+.photo-text{
+    column-gap: 25px;
+    margin-left: 125px;
+    width:35%;
+}
+
+
+.shit-css{
+    font-size: 40px;
+    color: #FFC470;
+    font-weight: bolder;
+}
+
+.baap{
+    display: flex;
+    flex-direction: column;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-container{
+    display: flex;
+    flex: 1;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 125px;
+}
+.card-real{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;}
+    .card-real img{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    border: 3px solid cadetblue ;overflow: hidden;
+}
+.quote{
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 50px;
+    align-items: center;
+}
+.quote div{
+    display: flex;
+    flex-direction: column;
+}
+.card-real:hover img {
+    transform: scale(1.2);
+}
+.card-real:hover{
+}
+
+
+.signup{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.blue-signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    width:900px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.blue-shit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:80px;
+    color:white;
+    font-size: 20px;
+}
+.blue-shit button{
+    border-color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+/*.card-real{*/
+/*border-radius: 10px;*/
+/*    border: 3px solid dodgerblue;*/
+/* }*/
+/*img.card-real{*/
+/*    border-radius: 10px;*/
+/*    border: 3px solid dodgerblue;*/
+/*}*/
